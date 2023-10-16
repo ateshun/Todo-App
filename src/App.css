@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+html {
+  background-color: #e6e7e9;
+}
+
+.App-header {
+  background-image: url(./Resources/bg-mobile-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  gap: 220px;
+}
+
+.last,
+.item {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  color: white;
+  font-size: large;
+  font-weight: 900;
+}
+
+.last p {
+  color: black;
+}
+
+.container {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: -40px;
+  border-radius: 8px;
+}
+.top {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 20px;
+}
+
+button {
+  border-style: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 300px;
+  margin-left: 50px;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: none;
+}
+
+.add {
+  background-color: rgba(0, 102, 255, 0.959);
+  color: white;
+  display: inline-flex;
+  margin-right: -20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#text {
+  border-style: none;
+}
+
+.cancel {
+  color: rgb(0, 47, 255);
+}
+
+.del {
+  color: rgb(255, 17, 0);
+}
